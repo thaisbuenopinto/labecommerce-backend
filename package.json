@@ -1,0 +1,24 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "Este arquivo servirá ára todo o projeto backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaisbuenopinto/labecommerce-backend.git"
+  },
+  "author": "thais-bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaisbuenopinto/labecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/thaisbuenopinto/labecommerce-backend#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.4",
+    "typescript": "^5.0.4"
+  }
+}
