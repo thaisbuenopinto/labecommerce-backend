@@ -1,1 +1,1 @@
-# labecommerce-backend
+Projeto com o código finalizado, no entanto faltando documentação e readme. As razões ja foram devidamente passadas a escola através da Maju, bem como pelo formulário do projeto como foi orientado pela mesma
