@@ -1,64 +1,43 @@
--- Active: 1687467110736@@127.0.0.1@3306
+-- Active: 1689639680032@@127.0.0.1@3306
 
 
-CREATE TABLE users(
-    id TEXT PRIMARY KEY NOT NULL,
-    name TEXT NOT NULL,   
-    email TEXT UNIQUE NOT NULL,
-    password TEXT NOT NULL,
-    created_at TEXT not null
-);
-
-CREATE TABLE products(
-    id TEXT PRIMARY KEY NOT NULL,
-    name TEXT NOT NULL,
-    price REAL NOT NULL,
-    description TEXT NOT NULL,
-    image_url TEXT NOT NULL
-);
-
-INSERT INTO users (id, name, email, password, created_at)
-VALUES 
-('84597', 'Gabriel', 'thissy@gmail.com', '12345', '20/06/2023'),
-('84598', 'Catarina', 'caty@gmail.com', '56789', '22/03/2023'),
-('84599', 'Bruna', 'bru@gmail.com', '10234', '22/06/2023');
-
-INSERT INTO products (id, name, price, description, image_url)
-VALUES
-('84', 'cadeira', '200', 'cadeira-veludo', "@@@@@@"),
-('85', 'cadeira', '150', 'cadeira-ferro', "@@@@@@"),
-('86', 'cadeira', '250', 'cadeira-madeira', "@@@@@@"),
-('87', 'cadeira', '300', 'cadeira-transparente', "@@@@@@"),
-('88', 'cadeira', '100', 'cadeira-puff', "@@@@@@");
+CREATE TABLE
+    users (
+        id TEXT PRIMARY KEY NOT NULL,
+        name TEXT NOT NULL,
+        email TEXT UNIQUE NOT NULL,
+        password TEXT NOT NULL,
+        createdAt TEXT DEFAULT (DATETIME()) NOT NULL
+    );
 
 SELECT * FROM users;
 
+DROP TABLE users;
+
+CREATE TABLE
+    products(
+        id TEXT PRIMARY KEY NOT NULL,
+        name TEXT NOT NULL,
+        price REAL NOT NULL,
+        description TEXT NOT NULL,
+        image_url TEXT NOT NULL
+    );
+
 SELECT * FROM products;
 
-SELECT * FROM products
-WHERE description LIKE '%cadeira%';
+DROP TABLE products;
 
-INSERT INTO products (id, name, price, description, image_url)
-VALUES
-('90', 'mesa', '1200', 'mesa-madeira', "@@@@@@");
+DELETE FROM users WHERE id = 'u003';
 
-INSERT INTO users (id, name, email, password, created_at)
-VALUES 
-('84600', 'Jose', 'jos@gmail.com', '54321', '10/01/2023');
-
-DELETE FROM users
-WHERE id = '84599';
-
-DELETE FROM products
-WHERE id = '85';
+DELETE FROM products WHERE id = 'prod002';
 
 UPDATE products
 SET
-	name = 'notebokk',
-    price = '500',
-    description= 'samsung 360',
-    image_url = '&&&&&&&'
-WHERE id = '87';
+    name = 'Fone gamer',
+    price = 180.00,
+    description = 'O melhor fone gamer',
+    image_url = 'http://www.minhaloja.com/fone-gamer'
+WHERE id = 'prod003';
 
 CREATE TABLE
     purchases (
@@ -73,7 +52,7 @@ SELECT * FROM purchases;
 
 DROP TABLE purchases;
 
-UPDATE purchases SET total_price = 20 WHERE id = 'p002';
+UPDATE purchases SET total_price = 75 WHERE id = 'p001';
 
 SELECT
     users.id AS userId,
@@ -100,7 +79,7 @@ INSERT INTO
         product_id,
         quantity
     )
-VALUES ('pur001', 'prod001', 5), ('pur001', 'prod002', 28);
+VALUES ('pur001', 'prod001', 4), ('pur001', 'prod002', 2);
 
 SELECT * FROM purchases_products;
 
@@ -111,7 +90,7 @@ FROM products
     LEFT JOIN purchases_products ON products.id = purchases_products.product_id
     LEFT JOIN purchases ON purchases.id = purchases_products.purchase_id;
 
-UPDATE users SET name = '03' WHERE id = 'Catarina';
+UPDATE users SET name = '02' WHERE id = 'Rafael';
 
 INSERT INTO
     users (id, name, email, password)
@@ -143,7 +122,7 @@ INSERT INTO
         name,
         price,
         description,
-        imageUrl
+        image_url
     )
 VALUES (
         'p001',
