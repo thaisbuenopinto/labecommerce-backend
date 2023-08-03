@@ -15,23 +15,23 @@ Estrututa dos arquivos<br>
 Layout<br>
 <h1>Rodando o projeto</h1><br>
 
-# Copie o link a baixo
+<strong> Copie o link a baixo </strong><br>
 
-https://github.com/thaisbuenopinto/labecommerce-backend
+https://github.com/thaisbuenopinto/labecommerce-backend<br>
 
-# Abra seu terminal e digite o seguinte comando
+<strong> Abra seu terminal e digite o seguinte comando</strong><br>
 
-git clone (cole a url aqui)
+git clone (cole a url aqui)<br>
 
-# verifique se esto diretorio correto ou acesse ou acesse o diretorio
+<strong> verifique se esto diretorio correto ou acesse ou acesse o diretorio</strong><br>
 
-cd labecommerce-backend
+cd labecommerce-backend<br>
 
-# Instale as dependências
+<strong> Instale as dependências</strong><br>
 
-npm install
+npm install<br>
 
-# Executando o Projeto
+<strong> Executando o Projeto</strong><br>
 
 Digite "npm run dev" para obter a confirmação de que o servidor esta rodando: Servidor rodando na porta 3003 <br>
 
