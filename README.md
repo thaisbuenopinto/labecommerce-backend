@@ -9,60 +9,60 @@ API que contém a explicação de funcionamento de banco de dados de um ecommerc
 <em>Tecnologias Utilizadas</em><br>
 <em>Documentação</em><br>
 
-Layout
-Estrututa dos arquivos
-Layout
+<h1>Layout</h1>
+Estrututa dos arquivos<br>
+Layout<br>
 
-Requisições
-Requisições (paths):
-REQUISIÇÔES DE USUARIOS:
-/users
-REQUISIÇÔES DE PRODUTOS:
-/produtos
-REQUISIÇÔES DE COMPRAS:
-/purchases
+Requisições<br>
+Requisições (paths):<br>
+REQUISIÇÔES DE USUARIOS:<br>
+/users<br>
+REQUISIÇÔES DE PRODUTOS:<br>
+/produtos<br>
+REQUISIÇÔES DE COMPRAS:<br>
+/purchases<br>
 
-Exemplo de requisições
-GET ALL USERS :
-Requisição responsavel por: Buscar tudos os usuários.
-path: /users
-CREATE USER :
-Requisição responsavel por: Criar um novo usuário.
-path: /users
-EDIT USER BY ID :
-Requisição responsavel por: Editar usuário por ID.
-path: /users/:id
-DELETE USER BY ID :
-Requisição responsavel por: Deletar um usuário por ID.
-path: /users/:id
-GET ALL PRODUCTS :
-Requisição responsavel por: Buscar tudos os produtos
-path: /products
-GET PRODUCTS BY QUERY :
-Requisição responsavel por: Buscar produtos por determinada informação de busca
-path: /products?name=
-CREATE PRODUCT :
-Requisição responsavel por: Criar um novo produto.
-path: /products
-EDIT PRODUCT BY ID :
-Requisição responsavel por: Editar produto por ID.
-path: /products/:id
-DELETE PRODUCT BY ID :
-Requisição responsavel por: Deletar um produto por ID.
-path: /products/:id
-GET ALL PURCHASES :
-Requisição responsavel por: Buscar tudas as compras.
-path: /purchases
-GET PURCHASE BY ID :
-Requisição responsavel por: Buscar compra por ID.
-path: /purchases/:id
-CREATE PURCHASE :
-Requisição responsavel por: Criar uma nova compra.
-path: /purchases
-DELETE PURCHASE BY ID :
-Requisição responsavel por: Deletar uma compra por ID.
-path: /purchases/:id
-Como rodar este projeto
+Exemplo de requisições<br>
+GET ALL USERS :<br>
+Requisição responsavel por: Buscar tudos os usuários.<br>
+path: /users<br>
+CREATE USER :<br>
+Requisição responsavel por: Criar um novo usuário.<br>
+path: /users<br>
+EDIT USER BY ID :<br>
+Requisição responsavel por: Editar usuário por ID.<br>
+path: /users/:id<br>
+DELETE USER BY ID :<br>
+Requisição responsavel por: Deletar um usuário por ID.<br>
+path: /users/:id<br>
+GET ALL PRODUCTS :<br>
+Requisição responsavel por: Buscar tudos os produtos<br>
+path: /products<br>
+GET PRODUCTS BY QUERY :<br>
+Requisição responsavel por: Buscar produtos por determinada informação de busca<br>
+path: /products?name=<br>
+CREATE PRODUCT :<br>
+Requisição responsavel por: Criar um novo produto.<br>
+path: /products<br>
+EDIT PRODUCT BY ID :<br>
+Requisição responsavel por: Editar produto por ID.<br>
+path: /products/:id<br>
+DELETE PRODUCT BY ID :<br>
+Requisição responsavel por: Deletar um produto por ID.<br>
+path: /products/:id<br>
+GET ALL PURCHASES :<br>
+Requisição responsavel por: Buscar tudas as compras.<br>
+path: /purchases<br>
+GET PURCHASE BY ID :<br>
+Requisição responsavel por: Buscar compra por ID.<br>
+path: /purchases/:id<br>
+CREATE PURCHASE :<br>
+Requisição responsavel por: Criar uma nova compra.<br>
+path: /purchases<br>
+DELETE PURCHASE BY ID :<br>
+Requisição responsavel por: Deletar uma compra por ID.<br>
+path: /purchases/:id<br>
+Como rodar este projeto<br>
 # Copie o link a baixo
 
 https://github.com/Rlopesn/Labecommerce-backend.git
