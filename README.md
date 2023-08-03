@@ -2,12 +2,12 @@
 API que contém a explicação de funcionamento de banco de dados de um ecommerce, projeto integrante do curso desenvolvedor web full stack da Labenu.
 
 <h1>Índice:</h1>
-<em></em>Layout</em>
-<em>Requisições</em>
-<em>Exemplo de Requisições</em>
-<em>Como rodar este projeto</em>
-<em>Tecnologias Utilizadas</em>
-<em>Documentação</em>
+<em>Layout</em><br>
+<em>Requisições</em><br>
+<em>Exemplo de Requisições</em><br>
+<em>Como rodar este projeto</em><br>
+<em>Tecnologias Utilizadas</em><br>
+<em>Documentação</em><br>
 
 Layout
 Estrututa dos arquivos
