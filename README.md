@@ -1,15 +1,13 @@
-<h1>Labecommerce-backend</h1>h1>
-
-  
+<h1>Labecommerce-backend</h1>
 API que contém a explicação de funcionamento de banco de dados de um ecommerce, projeto integrante do curso desenvolvedor web full stack da Labenu.
 
-Índice:
-Layout
-Requisições
-Exemplo de Requisições
-Como rodar este projeto
-Tecnologias Utilizadas
-Documentação
+<h1>Índice:</h1>
+<em></em>Layout</em>
+<em>Requisições</em>
+<em>Exemplo de Requisições</em>
+<em>Como rodar este projeto</em>
+<em>Tecnologias Utilizadas</em>
+<em>Documentação</em>
 
 Layout
 Estrututa dos arquivos
