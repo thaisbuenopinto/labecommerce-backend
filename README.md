@@ -88,10 +88,10 @@ Digite "npm run dev" para obter a confirmação de que o servidor esta rodando: 
 
 # Tecnologias utilizadas
 
-<strong>Node.js</strong>
-<strong>TypeScript</strong>
-<strong>Express</strong>
-<strong>SQL</strong>
-<strong>SQLITE</strong>
-<strong>Knex.js</strong>
-<strong>Documentação API postman</strong>
+<strong>Node.js</strong><br>
+<strong>TypeScript</strong><br>
+<strong>Express</strong><br>
+<strong>SQL</strong><br>
+<strong>SQLITE</strong><br>
+<strong>Knex.js</strong><br>
+<strong>Documentação API postman</strong><br>
