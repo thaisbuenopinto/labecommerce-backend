@@ -63,9 +63,10 @@ DELETE PURCHASE BY ID :<br>
 Requisição responsavel por: Deletar uma compra por ID.<br>
 path: /purchases/:id<br>
 Como rodar este projeto<br>
+
 # Copie o link a baixo
 
-https://github.com/Rlopesn/Labecommerce-backend.git
+https://github.com/thaisbuenopinto/labecommerce-backend
 
 # Abra seu terminal e digite o seguinte comando
 
@@ -81,16 +82,16 @@ npm install
 
 # Executando o Projeto
 
-npm run start
+Digite "npm run dev" para obter a confirmação de que o servidor esta rodando: Servidor rodando na porta 3003 <br>
 
-deverá aparecer a confirmação: Servidor rodando na porta 3003
 
-Tecnologias utilizadas
-Node.js
-TypeScript
-Express
-SQL
-SQLITE
-Knex.js
-Documentação postman
-Documentação API postman
+
+# Tecnologias utilizadas
+
+# Node.js
+# TypeScript
+# Express
+# SQL
+# SQLITE
+# Knex.js
+# Documentação API postman
