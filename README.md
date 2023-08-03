@@ -3,15 +3,37 @@ API que contém a explicação de funcionamento de banco de dados de um ecommerc
 
 <h1>Índice:</h1>
 <em>Layout</em><br>
+<em>Rodando o projeto</em><br>
 <em>Requisições</em><br>
 <em>Exemplo de Requisições</em><br>
-<em>Como rodar este projeto</em><br>
+
 <em>Tecnologias Utilizadas</em><br>
 <em>Documentação</em><br>
 
 <h1>Layout</h1>
 Estrututa dos arquivos<br>
 Layout<br>
+<h1>Rodando o projeto</h1><br>
+
+# Copie o link a baixo
+
+https://github.com/thaisbuenopinto/labecommerce-backend
+
+# Abra seu terminal e digite o seguinte comando
+
+git clone (cole a url aqui)
+
+# verifique se esto diretorio correto ou acesse ou acesse o diretorio
+
+cd labecommerce-backend
+
+# Instale as dependências
+
+npm install
+
+# Executando o Projeto
+
+Digite "npm run dev" para obter a confirmação de que o servidor esta rodando: Servidor rodando na porta 3003 <br>
 
 Requisições<br>
 Requisições (paths):<br>
@@ -62,27 +84,8 @@ path: /purchases<br>
 DELETE PURCHASE BY ID :<br>
 Requisição responsavel por: Deletar uma compra por ID.<br>
 path: /purchases/:id<br>
-Como rodar este projeto<br>
 
-# Copie o link a baixo
 
-https://github.com/thaisbuenopinto/labecommerce-backend
-
-# Abra seu terminal e digite o seguinte comando
-
-git clone (cole a url aqui)
-
-# verifique se esto diretorio correto ou acesse ou acesse o diretorio
-
-cd labecommerce-backend
-
-# Instale as dependências
-
-npm install
-
-# Executando o Projeto
-
-Digite "npm run dev" para obter a confirmação de que o servidor esta rodando: Servidor rodando na porta 3003 <br>
 
 
 
