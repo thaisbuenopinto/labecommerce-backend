@@ -1,5 +1,5 @@
 
-export type Users = {
+export type TUsers = {
     id: string,
     name: string,
     email: string,
@@ -8,10 +8,19 @@ export type Users = {
 
 }
 
-export type Products = {
+export type TProducts = {
     id: string,
     name: string,
     price: number,
     description: string,
-    imageURL: string
+    image_url: string
 }
+
+
+export type TPurchases = {
+    id: string,
+    buyer: string,
+    total_price: number
+}
+
+
