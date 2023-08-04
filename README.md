@@ -2,17 +2,14 @@
 API que contém a explicação de funcionamento de banco de dados de um ecommerce, projeto integrante do curso desenvolvedor web full stack da Labenu.
 
 <h1>Índice:</h1>
-<em>Layout</em><br>
 <em>Rodando o projeto</em><br>
+<em>Layout</em><br>
 <em>Requisições</em><br>
 <em>Exemplo de Requisições</em><br>
 
 <em>Tecnologias Utilizadas</em><br>
 <em>Documentação</em><br>
 
-<h1>Layout</h1>
-Estrututa dos arquivos<br>
-Layout<br>
 <h1>Rodando o projeto</h1><br>
 
 <strong> Copie o link a baixo </strong><br>
@@ -23,7 +20,7 @@ https://github.com/thaisbuenopinto/labecommerce-backend<br>
 
 git clone (cole a url aqui)<br>
 
-<strong> verifique se esto diretorio correto ou acesse ou acesse o diretorio</strong><br>
+<strong> Acesse o diretorio</strong><br>
 
 cd labecommerce-backend<br>
 
@@ -34,6 +31,11 @@ npm install<br>
 <strong> Executando o Projeto</strong><br>
 
 Digite "npm run dev" para obter a confirmação de que o servidor esta rodando: Servidor rodando na porta 3003 <br>
+
+<h1>Layout</h1>
+Estrututa dos arquivos<br>
+![image](https://github.com/thaisbuenopinto/labecommerce-backend/assets/114695238/b47167ba-0969-480e-a661-6cfafc741e71)
+
 
 Requisições<br>
 Requisições (paths):<br>
