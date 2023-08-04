@@ -99,4 +99,5 @@ path: /purchases/:id<br>
 <strong>SQL</strong><br>
 <strong>SQLITE</strong><br>
 <strong>Knex.js</strong><br>
-<strong>Documentação API postman</strong><br>
+<h1>Documentação API postman</h1>
+https://www.postman.com/security-geoscientist-11965252/workspace/my-workspace/api/6a4eb048-5b6c-46a1-a95c-bd55f6616045/documentation/26594360-4e7b676d-8e9d-4152-ad0d-41f4841fa45b
