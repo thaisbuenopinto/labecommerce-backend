@@ -34,56 +34,56 @@ Digite "npm run dev" para obter a confirmação de que o servidor esta rodando: 
 
 <h1>Layout</h1>
 Estrututa dos arquivos<br>
-![image](https://github.com/thaisbuenopinto/labecommerce-backend/assets/114695238/b47167ba-0969-480e-a661-6cfafc741e71)
+(https://github.com/thaisbuenopinto/labecommerce-backend/assets/114695238/b47167ba-0969-480e-a661-6cfafc741e71)
 
 
-Requisições<br>
+<h1>Requisições</h1>
 Requisições (paths):<br>
-REQUISIÇÔES DE USUARIOS:<br>
+<strong>REQUISIÇÔES DE USUARIOS:</strong><br>
 /users<br>
-REQUISIÇÔES DE PRODUTOS:<br>
+<strong>REQUISIÇÔES DE PRODUTOS:</strong><br>
 /produtos<br>
-REQUISIÇÔES DE COMPRAS:<br>
+<strong>REQUISIÇÔES DE COMPRAS:</strong><br>
 /purchases<br>
 
 Exemplo de requisições<br>
-GET ALL USERS :<br>
+<strong>GET ALL USERS :</strong><br>
 Requisição responsavel por: Buscar tudos os usuários.<br>
 path: /users<br>
-CREATE USER :<br>
+<strong>CREATE USER :</strong><br>
 Requisição responsavel por: Criar um novo usuário.<br>
 path: /users<br>
-EDIT USER BY ID :<br>
+<strong>EDIT USER BY ID :</strong><br>
 Requisição responsavel por: Editar usuário por ID.<br>
 path: /users/:id<br>
-DELETE USER BY ID :<br>
+<strong>DELETE USER BY ID :</strong><br>
 Requisição responsavel por: Deletar um usuário por ID.<br>
 path: /users/:id<br>
-GET ALL PRODUCTS :<br>
+<strong>GET ALL PRODUCTS :</strong><br>
 Requisição responsavel por: Buscar tudos os produtos<br>
 path: /products<br>
-GET PRODUCTS BY QUERY :<br>
+<strong>GET PRODUCTS BY QUERY :</strong><br>
 Requisição responsavel por: Buscar produtos por determinada informação de busca<br>
 path: /products?name=<br>
-CREATE PRODUCT :<br>
+<strong>CREATE PRODUCT :</strong><br>
 Requisição responsavel por: Criar um novo produto.<br>
 path: /products<br>
-EDIT PRODUCT BY ID :<br>
+<strong>EDIT PRODUCT BY ID :</strong><br>
 Requisição responsavel por: Editar produto por ID.<br>
 path: /products/:id<br>
-DELETE PRODUCT BY ID :<br>
+<strong>DELETE PRODUCT BY ID :</strong><br>
 Requisição responsavel por: Deletar um produto por ID.<br>
 path: /products/:id<br>
-GET ALL PURCHASES :<br>
+<strong>GET ALL PURCHASES :</strong><br>
 Requisição responsavel por: Buscar tudas as compras.<br>
 path: /purchases<br>
-GET PURCHASE BY ID :<br>
+<strong>GET PURCHASE BY ID :</strong><br>
 Requisição responsavel por: Buscar compra por ID.<br>
 path: /purchases/:id<br>
-CREATE PURCHASE :<br>
+<strong>CREATE PURCHASE :</strong><br>
 Requisição responsavel por: Criar uma nova compra.<br>
 path: /purchases<br>
-DELETE PURCHASE BY ID :<br>
+<strong>DELETE PURCHASE BY ID :</strong><br>
 Requisição responsavel por: Deletar uma compra por ID.<br>
 path: /purchases/:id<br>
 
